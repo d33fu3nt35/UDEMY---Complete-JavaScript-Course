@@ -18,9 +18,12 @@ console.log(legalAge)
 
 */
 
+
+
+
 // Lecture: Variables 2
 
-var name = 'Daniel';
+/* var name = 'Daniel';
 var age = 21;
 
 console.log(name + ' ' + age);
@@ -43,4 +46,26 @@ console.log(name + ' is a ' + age + ' year old ' + job + '. Is he married? ' + i
 var lastName = prompt('What is the last name?');
 console.log(lastName);
 
-alert(name + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried + '. ');
+alert(name + ' is a ' + age + ' year old ' + job + '. Is he married? ' + isMarried + '. '); */
+
+
+
+
+// Lecture: Operators
+
+var now = 2017;
+var birthYear = 2017 - 22;
+
+birthYear = now - 22 * 2;
+// 2017 - 44
+// 1973
+
+var ageDaniel = 21;
+var ageElijah = 18;
+
+ageDaniel = (5 * 4) + 1;
+
+console.log(birthYear);
+
+console.log(ageDaniel);
+
